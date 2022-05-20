@@ -42,13 +42,13 @@ class _HomePageState extends State<HomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Center(
+        title: Center(
             child: Text(
           'Names',
           style: TextStyle(color: Colors.black87),
         )),
         backgroundColor: Colors.white,
-        elevation: 1.5,
+        elevation: 1,
         actions: <Widget>[
           Container(
             margin: const EdgeInsets.only(right: 10),
@@ -59,6 +59,7 @@ class _HomePageState extends State<HomePage> {
         ],
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: <Widget>[
           _showGraph(),
           Expanded(
@@ -189,7 +190,6 @@ class _HomePageState extends State<HomePage> {
     ];
     return Container(
         padding: const EdgeInsets.only(top: 10),
-        width: double.infinity,
         height: 200,
         child: PieChart(
           dataMap: dataMap,
