@@ -1,7 +1,7 @@
-# bandnamesapp
+# Bandnamesapp conectado con ell server de NODE
 
-A new Flutter project.
 
+Flutter project el cuál agarra datos del servidor en TIEMPO REAL de node con el cuál puedes votar y en la página y app puedes ver los resultados, nuevos datos y eliminaciónn de datos en tiempo real.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
