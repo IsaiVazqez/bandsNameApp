@@ -2,6 +2,10 @@
 
 
 Flutter project el cuál agarra datos del servidor en TIEMPO REAL de node con el cuál puedes votar y en la página y app puedes ver los resultados, nuevos datos y eliminaciónn de datos en tiempo real.
+
+
+![image](https://user-images.githubusercontent.com/92620535/169628826-314e272b-5a75-4d8e-a2ea-b60c0f31af58.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
